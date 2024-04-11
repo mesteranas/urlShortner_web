@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL shortener</title>
+</head>
+<body>
+    <h1>URL shortener</h1>
+    <input type="url" id="link" placeholder="link" required>
+    <br>
+    <button onclick="flink()">generate</button>
+    <br>
+    <input type="text" id="re" placeholder="result" readonly>
+    <button onclick="window.location.href=document.getElementById('re').value">open</button>
+    <script src="script.js"></script>
+</body>
+</html>
